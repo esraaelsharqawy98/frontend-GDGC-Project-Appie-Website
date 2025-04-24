@@ -21,7 +21,6 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
 }
 
 a {
@@ -43,8 +42,8 @@ button {
   text-align: center;
   transition: all 0.4s ease-out;
 }
-h4{
-    line-height: 1.2;
+h4 {
+  line-height: 1.2;
 }
 
 /* utility class */
@@ -283,8 +282,8 @@ header .nav-btn .menu-btn {
 /* ==========================================================================
       Services Section
       ========================================================================== */
-.services{
-    padding-bottom: 100px;
+.services {
+  padding-bottom: 100px;
 }
 .services .section-header {
   display: flex;
@@ -328,43 +327,43 @@ header .nav-btn .menu-btn {
   align-items: center;
 }
 .services .services-grid .service-card .icon i {
-    color: #fff;
+  color: #fff;
 }
-.services .services-grid .card-1:hover{
-    border-top: 3px solid #2eacfc;
+.services .services-grid .card-1:hover {
+  border-top: 3px solid #2eacfc;
 }
-.services .services-grid .card-1 .icon{
-    background-color: #2eacfc;
+.services .services-grid .card-1 .icon {
+  background-color: #2eacfc;
 }
-.services .services-grid .card-2:hover{
-    border-top: 3px solid #ea4c89;
+.services .services-grid .card-2:hover {
+  border-top: 3px solid #ea4c89;
 }
-.services .services-grid .card-2 .icon{
-    background-color: #ea4c89;
+.services .services-grid .card-2 .icon {
+  background-color: #ea4c89;
 }
-.services .services-grid .card-3:hover{
-    border-top: 3px solid #3578ff;
+.services .services-grid .card-3:hover {
+  border-top: 3px solid #3578ff;
 }
-.services .services-grid .card-3 .icon{
-    background-color: #3578ff;
+.services .services-grid .card-3 .icon {
+  background-color: #3578ff;
 }
-.services .services-grid .card-4:hover{
-    border-top: 3px solid #f67741;
+.services .services-grid .card-4:hover {
+  border-top: 3px solid #f67741;
 }
-.services .services-grid .card-4 .icon{
-    background-color: #f67741;
+.services .services-grid .card-4 .icon {
+  background-color: #f67741;
 }
-.services .services-grid .card-5:hover{
-    border-top: 3px solid #6a88f7;
+.services .services-grid .card-5:hover {
+  border-top: 3px solid #6a88f7;
 }
-.services .services-grid .card-5 .icon{
-    background-color: #6a88f7;
+.services .services-grid .card-5 .icon {
+  background-color: #6a88f7;
 }
-.services .services-grid .card-6:hover{
-    border-top: 3px solid #3ab094;
+.services .services-grid .card-6:hover {
+  border-top: 3px solid #3ab094;
 }
-.services .services-grid .card-6 .icon{
-    background-color: #3ab094;
+.services .services-grid .card-6 .icon {
+  background-color: #3ab094;
 }
 .services .services-grid .service-card .card-title {
   font-size: 20px;
@@ -393,87 +392,200 @@ header .nav-btn .menu-btn {
 /* ==========================================================================
       About Section
       ========================================================================== */
-.about{
-    padding-bottom: 100px;
+.about {
+  padding-bottom: 100px;
 }
-.about .about-content{
-    background: #f0f1f7;
-    padding: 70px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    column-gap: 30px;
+.about .about-content {
+  background: #f0f1f7;
+  padding: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
 }
-.about .about-content .section-title{
-    padding-right: 50px;
+.about .about-content .section-title {
+  padding-right: 50px;
 }
-.about .about-content .about-img{
-    flex: 1 1 50%;
-    position: relative;
+.about .about-content .about-img {
+  flex: 1 1 50%;
+  position: relative;
 }
-.about .about-content .about-img img{
-    position: absolute;
-    left: 0;
-    top: -23px;
+.about .about-content .about-img img {
+  position: absolute;
+  left: 0;
+  top: -23px;
 }
-.about .about-content .about-text{
-    flex: 1 1 50%;
+.about .about-content .about-text {
+  flex: 1 1 50%;
 }
-.about .about-content .about-text span{
-    font-size: 14px;
-    font-weight: 500;
-    color: #ff3e66;
+.about .about-content .about-text span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff3e66;
 }
-.about .about-content .about-text .section-title .title{
-    margin-top: 8px;
-    margin-bottom: 12px;
+.about .about-content .about-text .section-title .title {
+  margin-top: 8px;
+  margin-bottom: 12px;
 }
-.about .about-content .about-text .section-title p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #505056;
+.about .about-content .about-text .section-title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #505056;
 }
-.about .about-content .about-text .about-box{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.about .about-content .about-text .about-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.about .about-content .about-text .about-box .item{
-    position: relative;
+.about .about-content .about-text .about-box .item {
+  position: relative;
 }
-.about .about-content .about-text .about-box .item .icon{
-    height: 26px;
-    width: 26px;
+.about .about-content .about-text .about-box .item .icon {
+  height: 26px;
+  width: 26px;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #31c369;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.about .about-content .about-text .about-box .item .text {
+  padding-left: 40px;
+  padding-right: 15px;
+}
+.about .about-content .about-text .about-box .item .text .title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e1133;
+}
+.about .about-content .about-text .about-box .item .text p {
+  font-size: 15px;
+  margin-top: 8px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #505056;
+}
+
+/* ==========================================================================
+      Features Section
+      ========================================================================== */
+.features {
+  padding: 90px 0 100px 0;
+  background-color: #0e1133;
+}
+.features .section-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.features .section-title .title,
+.features .section-title .description {
+  color: #fff;
+}
+.features-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features .features-list {
+  padding: 0 70px 0 100px;
+}
+.features .features-list .features-item {
+  border: 1px solid #202234;
+  padding: 25px 30px 30px 70px;
+  border-radius: 6px;
+  transition: all 0.3s ease-out 0s;
+  margin-bottom: 20px;
+}
+.features .features-list .features-item .title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  line-height: 1.2;
+  position: relative;
+}
+.features .features-list .features-item .title::before {
+  position: absolute;
+  content: "";
+  left: -40px;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.features .features-list .feature-1:hover,
+.features .features-list .feature-1.active {
+  border: 1px solid #ff3e66;
+}
+.features .features-list .feature-1 .title::before {
+  background: #ff3e66;
+  border: 6px solid #2a182d;
+}
+.features .features-list .feature-2:hover {
+  border-color: #2eacfc;
+}
+.features .features-list .feature-2 .title::before {
+  background: #2eacfc;
+  border: 6px solid #15233d;
+}
+.features .features-list .feature-3:hover {
+  border-color: #33c956;
+}
+.features .features-list .feature-3 .title::before {
+  background: #33c956;
+  border: 6px solid #15262c;
+}
+
+.features .features-list .features-item p {
+  font-size: 14px;
+  opacity: 0.6;
+  color: #fff;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* ==========================================================================
+      Counter Section
+      ========================================================================== */
+.counter {
+  padding: 90px 0 100px 0;
+}
+.counter .section-title {
+  padding-bottom: 55px;
+}
+.counter .counter-list {
+  display: flex;
+  justify-content: space-between;
+}
+.counter .counter-list .counter-item {
+  background: #fff;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 30px 40px 0px rgba(0, 41, 57, 0.1);
+  padding: 37px 55px 40px 55px;
+  text-align: center;
+}.counter .counter-list .counter-item .icon{
     text-align: center;
-    line-height: 26px;
-    border-radius: 50%;
-    color: #fff;
-    background-color: #31c369;
-    position: absolute;
-    top: 5px;
-    left: 0;
 }
-.about .about-content .about-text .about-box .item .text{
-    padding-left: 40px;
-    padding-right: 15px;
+.counter .counter-list .counter-item .title {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 5px;
 }
-.about .about-content .about-text .about-box .item .text .title{
-    font-size: 20px;
-    font-weight: 700;
-    color: #0e1133;
+.counter .counter-list .counter-item p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #505056;
 }
-.about .about-content .about-text .about-box .item .text p{
-    font-size: 15px;
-    margin-top: 8px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #505056;
-}
-
-
-
 
 /* ==========================================================================
       Media Queries for Responsive Design
