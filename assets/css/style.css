@@ -916,8 +916,8 @@ header .nav-btn .main-btn{
   color: #505056;
   font-weight: 400;
   line-height: 24px;
-  width: 40%;
   margin-bottom: 30px;
+  width: 40%;
 }
 .download .download-links {
   display: flex;
@@ -955,13 +955,15 @@ header .nav-btn .main-btn{
   color: #0e1133;
 }
 /* Media query */
+@media (max-width: 991px) {
+  .download p {
+    width: 100%;
+  }
+}
 @media (max-width: 767px) {
   .download .title {
     font-size: 30px;
     line-height: 40px;
-  }
-  .download p {
-    width: 100%;
   }
   .download .download-links{
     flex-wrap: wrap;
