@@ -499,6 +499,10 @@ header .nav-btn .main-btn{
     text-align: center;
     row-gap: 25px;
   }
+  .services .section-title .title {
+    font-size: 26px;
+    line-height: 36px;
+  }
   .services .services-grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -739,6 +743,12 @@ header .nav-btn .main-btn{
     flex: auto;
   }
 }
+@media (max-width: 991px) {
+  .features .section-title .title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
 /* ==========================================================================
       Counter Section
       ========================================================================== */
@@ -806,6 +816,10 @@ header .nav-btn .main-btn{
   }
 }
 @media (max-width: 767px) {
+  .counter .section-title .title {
+    font-size: 26px;
+    line-height: 36px;
+  }
   .counter .counter-list .counter-item {
     width: 100%;
   }
@@ -1127,6 +1141,10 @@ header .nav-btn .main-btn{
     flex: 0 0 calc(100% - 30px);
     margin-bottom: 30px;
 }
+.pricing .section-title .title {
+  font-size: 26px;
+  line-height: 36px;
+}
 }
 
 /* ==========================================================================
@@ -1272,6 +1290,10 @@ header .nav-btn .main-btn{
   }
 }
 @media (max-width:767px){
+  .sponser .section-title .title {
+    font-size: 26px;
+    line-height: 36px;
+  }
   .sponser .sponser-items{
       flex-wrap: wrap;
   }
